@@ -31,24 +31,19 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({
   const songLibrary = [
     {
       title: "A Thousand Years (Instrumental)",
-      src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3", 
-      artist: "Christina Perri Cover"
+      src: "/thousand.mp3", 
+      artist: "Christina Perri"
     },
     {
       title: "Perfect (Instrumental)",
-      src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3", 
-      artist: "Ed Sheeran Cover"
+      src: "perfect.mp3", 
+      artist: "Ed Sheeran"
     },
     {
-      title: "All of Me (Instrumental)",
-      src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3", 
-      artist: "John Legend Cover"
+      title: "You Are the Reason (Instrumental)",
+      src: "reason.mp3", 
+      artist: "Column Scott"
     },
-    {
-      title: "Can't Help Falling in Love (Instrumental)",
-      src: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Rainbow_Bridge.mp3", 
-      artist: "Elvis Presley Cover"
-    }
   ];
 
   // Function to update progress bar
