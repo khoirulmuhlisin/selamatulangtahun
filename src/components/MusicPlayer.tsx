@@ -31,17 +31,17 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({
   const songLibrary = [
     {
       title: "A Thousand Years (Instrumental)",
-      src: "/thousand.mp3", 
+      src: "https://raw.githubusercontent.com/khoirulmuhlisin/selamatulangtahun/main/thousand.mp3", 
       artist: "Christina Perri"
     },
     {
       title: "Perfect (Instrumental)",
-      src: "perfect.mp3", 
+      src: "https://raw.githubusercontent.com/khoirulmuhlisin/selamatulangtahun/main/perfect.mp3", 
       artist: "Ed Sheeran"
     },
     {
       title: "You Are the Reason (Instrumental)",
-      src: "reason.mp3", 
+      src: "https://raw.githubusercontent.com/khoirulmuhlisin/selamatulangtahun/main/reason.mp3", 
       artist: "Column Scott"
     },
   ];
